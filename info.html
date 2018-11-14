@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/master.js"></script>
+    <script type="text/javascript" src="js/V.js"></script>
+    <link rel="stylesheet" href="css/profile.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Lobster" rel="stylesheet">
+
+    <title> edit user information </title>
+  </head>
+  <body >
+
+
+
+    <!-- nav bar -->
+
+      <nav class="navbar navbar-light  profile_nav" id="width_nav" aria-expanded="true">
+        <a class="navbar-brand text-white" href="index.html">Tester</a>
+
+        <!-- controle side bar -->
+        <button class="navbar-toggler " style="background-color:rgba(0,200,255,0.5) !important;" name="off_on" type="button" data-toggle="collapse" data-target="#this" aria-controls="this" aria-expanded="false" aria-label="Toggle navigation" >
+
+          <span class="navbar-toggler-icon" ></span>
+        </button>
+
+
+    </nav>
+
+  <!-- /nav bar -->
+
+
+        <!-- sidebar -->
+            <div class="wrapper position-fixed " id="this">
+                <!-- Sidebar -->
+                <nav id="sidebar" class="">
+                    <div class="sidebar-header">
+                        <div class="text-center p-4"><img style="height:100px;margin-top:0;" src="img/profile/male.png" alt="user" class="rounded-circle"></div>
+                    </div>
+
+                    <ul class="list-unstyled components">
+                        <li>
+                            <a href="new_exam.html">New <i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="exams.html">all exams <i class="fa fa-paperclip" aria-hidden="true"></i></a>
+                        </li>
+
+                        <li class="active">
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-tasks"> Seting</i></a>
+                            <ul class="collapse list-unstyled" id="homeSubmenu">
+                                <li>
+                                    <a href="info.html">User info</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Help</a>
+                        </li>
+                        <li>
+
+
+                    </ul>
+                </nav>
+
+            </div>
+
+            <!-- /sidebar -->
+
+
+
+
+<div class="">
+
+
+<!-- section 1 -->
+<section class="col col-sm-12 col-md-12 col-lg-9 ">
+
+<form aria-activedescendant="" class="" action="index.html" method="post">
+
+<div class="Edit-info center">
+<!--
+    <div class="row">
+
+        <div class="col col-lg-12 col-md-12 col-sm-12">
+            <img style="height:150px;margin-top:0;" src="img/profile/male.png" alt="user" class="rounded-circle">
+            <input required type="file" name="avatar" value="">
+            <hr>
+        </div>
+
+    </div> -->
+
+
+    <div class="row ">
+
+      <div class="col col-lg-12 col-md-6 col-sm-12">
+        <div class="avatar">
+          <img style="height:150px;margin-top:0;" src="img/profile/male.png" alt="user" class="rounded-circle">
+          <input required type="file" name="avatar" value="">
+
+        </div>
+
+
+<div class="avatarx">
+
+        <p>Full name :</p>
+        <input required type="text" name="" value="" placeholder="Full name">
+
+
+        <p>Email :</p>
+        <input required type="text" name="" value="" placeholder="Email">
+        <p>Old password :</p>
+        <input required type="password" name="" value="" placeholder="password">
+        <p>new password :</p>
+        <input required type="password" name="" value="" placeholder="password">
+        <p>confirm new password :</p>
+        <input required type="password" name="" value="" placeholder="new password">
+        <input class="btn btn-blue" type="submit" name="submit" value="Update">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+</form>
+
+</section>
+</div>
+<!-- /section 1 -->
+
+
+
+  </body>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>

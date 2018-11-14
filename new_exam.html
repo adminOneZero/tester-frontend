@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/master.js"></script>
+    <script type="text/javascript" src="js/V.js"></script>
+    <!-- <script type="text/javascript" src="js/testing.js"></script> -->
+    <link rel="stylesheet" href="css/profile.css">
+    <script type="text/javascript" src="js/profile.js"></script>
+
+
+    <title> create a ne exam </title>
+  </head>
+  <body >
+
+
+
+
+    <!-- nav bar -->
+
+      <nav class="navbar navbar-light  profile_nav" id="width_nav" aria-expanded="true">
+        <a class="navbar-brand text-white" href="index.html">Tester</a>
+
+        <!-- controle side bar -->
+        <button class="navbar-toggler " style="background-color:rgba(0,200,255,0.5) !important;" name="off_on" type="button" data-toggle="collapse" data-target="#this" aria-controls="this" aria-expanded="false" aria-label="Toggle navigation" >
+
+          <span class="navbar-toggler-icon" ></span>
+        </button>
+
+
+    </nav>
+
+  <!-- /nav bar -->
+
+
+        <!-- sidebar -->
+            <div class="wrapper position-fixed " id="this">
+                <!-- Sidebar -->
+                <nav id="sidebar" class="">
+                    <div class="sidebar-header">
+                        <div class="text-center p-4"><img style="height:100px;margin-top:0;" src="img/profile/male.png" alt="user" class="rounded-circle"></div>
+                    </div>
+
+                    <ul class="list-unstyled components">
+                        <li>
+                            <a href="new_exam.html">New <i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="exams.html">all exams <i class="fa fa-paperclip" aria-hidden="true"></i></a>
+                        </li>
+
+                        <li class="active">
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-tasks"> Seting</i></a>
+                            <ul class="collapse list-unstyled" id="homeSubmenu">
+                                <li>
+                                    <a href="info.html">User info</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Help</a>
+                        </li>
+                        <li>
+
+
+                    </ul>
+                </nav>
+
+            </div>
+
+            <!-- /sidebar -->
+
+
+
+
+
+<div class="">
+
+
+<!-- section 1 -->
+<section class="col col-sm-12 col-md-12 col-lg-9 ">
+
+<form id="new_exam" onsubmit="return maxmos()" class="" action="" method="post">
+
+
+<div class="container">
+
+  <div id="overView" class="col-lg-12 card-body">
+    <span class="card-title">Overview exam</span>
+
+
+
+  </div>
+
+</div>
+
+
+
+
+<span id="workSpace-title" class="card-title">Workspace</span>
+<div id="inputs_Q" class=" col-lg-12 card-body">
+
+</div>
+
+  <div class="row mt-3">
+    <!-- add -->
+    <div class=" co col-md-6 col-lg-6">
+
+      <label for="inputState">Answers type :</label>
+      <select id="question_type"  class="form-control mb-2">
+        <option selected>Choose...</option>
+        <option>Circle</option>
+        <option>Big Box</option>
+        <option>multi choices</option>
+        <option>One line</option>
+      </select>
+      <button id="question_get_type" class="btn btn-primary" type="button" name="type"> <span class="fa fa-plus"></span> Append type to workspace</button>
+
+    </div>
+    <!-- /add -->
+
+    <div class="col col-lg-6 col-md-6">
+      <div class="con">
+          <p class="text">Exam password for privacy :</p>
+          <input class="ExP" id="ExPass" type="password" name="Expassord" value="" placeholder="Exam Password" required>
+          <p class="text">Link to access exam:</p>
+          <input class="ExP" id="ExPass" type="text" name="Expassord" value="" placeholder="create a link " required>
+          <small id="emailHelp" class="">just allow [a-z,A-Z,-]</small>
+        </div>
+
+      </div>
+
+  </div>
+
+
+  <div class="row mt-4">
+    <div class="save_Ex container">
+      <button class="btn btn-success" type="submit" onclick="false"   name="save"> <span class="fa fa-floppy-o"></span> Save</button>
+    </div>
+  </div>
+
+  </form>
+
+</section>
+</div>
+<!-- /section 1 -->
+
+
+
+  </body>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>

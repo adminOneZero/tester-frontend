@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/V.js"></script>
+      <link rel="stylesheet" href="css/profile.css">
+      <script type="text/javascript" src="js/profile.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Abel|Lobster" rel="stylesheet">
+
+    <title> all user answers </title>
+  </head>
+  <body >
+
+    <!-- nav bar -->
+
+      <nav class="navbar navbar-light  profile_nav" id="width_nav" aria-expanded="true">
+        <a class="navbar-brand text-white" href="index.html">Tester</a>
+
+        <!-- controle side bar -->
+        <button class="navbar-toggler " style="background-color:rgba(0,200,255,0.5) !important;" name="off_on" type="button" data-toggle="collapse" data-target="#this" aria-controls="this" aria-expanded="false" aria-label="Toggle navigation" >
+
+          <span class="navbar-toggler-icon" ></span>
+        </button>
+
+
+    </nav>
+
+  <!-- /nav bar -->
+
+
+        <!-- sidebar -->
+            <div class="wrapper position-fixed " id="this">
+                <!-- Sidebar -->
+                <nav id="sidebar" class="">
+                    <div class="sidebar-header">
+                        <div class="text-center p-4"><img style="height:100px;margin-top:0;" src="img/profile/male.png" alt="user" class="rounded-circle"></div>
+                    </div>
+
+                    <ul class="list-unstyled components">
+                        <li>
+                            <a href="new_exam.html">New <i class="fa fa-plus" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="exams.html">all exams <i class="fa fa-paperclip" aria-hidden="true"></i></a>
+                        </li>
+
+                        <li class="active">
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-tasks"> Seting</i></a>
+                            <ul class="collapse list-unstyled" id="homeSubmenu">
+                                <li>
+                                    <a href="info.html">User info</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Help</a>
+                        </li>
+                        <li>
+
+
+                    </ul>
+                </nav>
+
+            </div>
+
+            <!-- /sidebar -->
+
+
+
+
+
+
+<div class="col col-sm-12 col-md-12 col-lg-9 sect sec_top">
+  <h3 class="p-2 mb-4 text-center title_pages">all answers to this student</h3>
+
+</div>
+
+<!-- section 1 -->
+<div class="col col-sm-12 col-md-12 col-lg-9 sect">
+<div class="">
+</div>
+<div class="contianer">
+
+
+
+
+  <div class=" card-body-red_result mb-3">
+  <span class="card-title-table">Correction result</span>
+
+  <!-- Rectangular switch -->
+  <div class="res">
+<input type="checkbox" id="switchx" />
+<label for="switchx">Toggle</label>
+</div>
+<hr class="hor-hr">
+
+
+<span class="ml-2 re-text1" >Attribution :</span>
+<span class="badge badge-secondary badge-ml" id="Demo">0%</span>
+
+<hr class="hor-hr hr-ml">
+  </div>
+
+
+  <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Questions</th>
+      <th scope="col">Answers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row trow">1</th>
+      <td>hwo are you?</td>
+      <td>me</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>hwo are you?</td>
+      <td>me</td>
+
+    </tr>
+  </tr>
+  <tr>
+    <th scope="row">2</th>
+    <td>hwo are you?</td>
+    <td>me</td>
+
+  </tr>
+</tr>
+<tr>
+  <th scope="row">2</th>
+  <td>hwo are you?</td>
+  <td>me</td>
+
+</tr>
+</tr>
+<tr>
+  <th scope="row">2</th>
+  <td>hwo are you?</td>
+  <td>me</td>
+
+</tr>
+  </tbody>
+</table>
+
+
+<div class="ec-card">
+<span class="ec-card-title">Edit the correction</span>
+<span id="ec-text1">Percentage : </span>
+
+    <input pattern="[0-9]" id="editcor"  onblur="cor()" style="width:70px;" type="number" class="ec-attr" placeholder="100%"
+    nkeypress="if(this.value.match(/\D/)) this.value=this.value.replace(/\D/g,'')"
+     onkeyup   ="if(this.value.match(/\D/)) this.value=this.value.replace(/\D/g,'')"
+    >
+
+    <span id="ec-text2">Success or Not : </span>
+
+    <div class="spd">
+  <input type="checkbox" id="switch" />
+  <label for="switch">Toggle</label>
+  </div>
+    <button class="btn save_config " type="button" name="button">save</button>
+</div>
+
+
+</div>
+</div>
+<!-- /section 1 -->
+
+
+
+
+
+
+
+
+
+
+  </body >
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>
