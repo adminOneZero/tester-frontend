@@ -86,7 +86,7 @@ function generate_num(){
 
       var target = $(e.target);
       // get close btn
-      if (target.attr('class') == 'closeColor') {
+      if (target.attr('class') == 'close') {
         var id = target.parent().parent().attr('id');
         $('#'+id).remove();
         $('#inputs_Q').find('div').remove();

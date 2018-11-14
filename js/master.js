@@ -14,7 +14,6 @@ $("html, body").animate({ scrollTop: $(this.hash).offset().top }, 1000);
 
     $(function() { $('#go_top').on('click', function(){
 
-    console.log(this.hash);
     $("html, body").animate({ scrollTop: $('#top').offset().top }, 500);
 
         });
